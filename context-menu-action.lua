@@ -1,3 +1,4 @@
+-- Adds a context menu entry to all loaded objects, tying it to object.flip() as the action
 function onload()
     allthings = getAllObjects()
     for a, thing in pairs(allthings) do
